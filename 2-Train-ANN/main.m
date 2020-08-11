@@ -4,7 +4,7 @@ clear ; close all;
 
 input_layer_size  = 400;  % 20x20 Input Images of Digits
 hidden_layer_size = 150;   % 150 hidden units
-num_labels = 8;           % 3 labels for Forward, Right, Left
+num_labels = 8;           % forward, left, right, obstacle and zebra-crossing; other space for flexibility to augment extra abilities when needed
 
 
 %% =========== Loading and Visualizing Data =============
